@@ -20,7 +20,7 @@
     android:title="@string/boba_settings_title" >
 
         <!-- Status Bar -->
-        <com.boba.settings.preferences.CardviewPreference
+   <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:fragment="com.boba.settings.fragments.StatusbarSettings"
