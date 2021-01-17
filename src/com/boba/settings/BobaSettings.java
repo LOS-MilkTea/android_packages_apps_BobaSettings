@@ -40,7 +40,7 @@ public class BobaSettings extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.Boba_SETTINGS;
+        return MetricsProto.MetricsEvent.BOBA_SETTINGS;
     }
 
     public static void lockCurrentOrientation(Activity activity) {

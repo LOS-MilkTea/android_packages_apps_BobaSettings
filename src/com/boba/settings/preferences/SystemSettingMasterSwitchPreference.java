@@ -21,7 +21,7 @@ import android.util.AttributeSet;
 
 import com.android.settings.R;
 
-import com.legion.settings.preferences.SystemSettingsStore;
+import com.boba.settings.preferences.SystemSettingsStore;
 
 public class SystemSettingMasterSwitchPreference extends MasterSwitchPreference {
 

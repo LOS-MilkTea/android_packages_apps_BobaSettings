@@ -20,14 +20,13 @@ import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.v14.preference.SwitchPreference;
-import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceScreen;
-import android.support.v7.preference.PreferenceCategory;
-import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.SwitchPreference;
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,7 +34,7 @@ import android.view.ViewGroup;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.boba.settings.R;
+import com.android.settings.R;
 
 public class StatusbarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -50,7 +49,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.Boba_SETTINGS;
+        return MetricsProto.MetricsEvent.BOBA_SETTINGS;
     }
 
     @Override
