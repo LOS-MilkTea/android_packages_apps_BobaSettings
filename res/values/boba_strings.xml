@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="boba_settings_title">Boba Addons</string>
+    <string name="boba_settings_title">BobaSettings</string>
 
     <!-- Categories -->
     <string name="animation_title">Animations</string>
@@ -37,4 +37,5 @@
     <string name="navbar_layout_compact">Compact</string>
     <string name="navbar_layout_leftleaning">Left-leaning</string>
     <string name="navbar_layout_rightleaning">Right-leaning</string>
+
 </resources>
